@@ -16,7 +16,7 @@ void loop() {
   float hum = sht31.getHumidity();
   Serial.print("Temp = "); 
   Serial.print(temp);
-  Serial.println(" C"); 
+  Serial.println(" C"); //The unit for  Celsius because original arduino don't support speical symbols
   Serial.print("Hum = "); 
   Serial.print(hum);
   Serial.println("%"); 
