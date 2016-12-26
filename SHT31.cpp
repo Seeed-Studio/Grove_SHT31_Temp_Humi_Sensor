@@ -59,7 +59,7 @@ boolean SHT31::getTempHum(void) {
 
   writeCommand(SHT31_MEAS_HIGHREP);
   
-  delay(500);
+  delay(50);
   Wire.requestFrom(_i2caddr, (uint8_t)6);
   if (Wire.available() != 6) 
     return false;
