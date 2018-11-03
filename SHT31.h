@@ -21,7 +21,8 @@ class SHT31 {
   public:
     SHT31();    
     boolean begin(uint8_t i2caddr = SHT31_ADDR);
-    float getTemperature(void);
+    float getTemperature(bool S=false);
+    float convertCtoF(float);
     float getHumidity(void);
     uint16_t readStatus(void);
     void reset(void);
