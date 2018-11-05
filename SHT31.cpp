@@ -11,11 +11,18 @@ boolean SHT31::begin(uint8_t i2caddr) {
   return true;
 }
 
-float SHT31::getTemperature(void) {
+//boolean S == Scale.  True == Farenheit; False == Celcius
+float SHT31::getTemperature(bool S) {
   if (! getTempHum()) return NAN;
+  if (S == true) {
+    return convertCtoF(temp);
+  }
   return temp;
 }
 
+float SHT31::convertCtoF(float c) {
+	return c * 9 / 5 + 32;
+}
 
 float SHT31::getHumidity(void) {
   if (! getTempHum()) return NAN;
