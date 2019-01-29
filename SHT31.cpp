@@ -1,4 +1,5 @@
 #include "SHT31.h"
+#include <math.h>
 
 SHT31::SHT31() {
 }
