@@ -1,4 +1,4 @@
-# Grove_SHT31_Temp_Humi_Sensor
+# Grove_SHT31_Temp_Humi_Sensor  [![Build Status](https://travis-ci.com/Seeed-Studio/Grove_SHT31_Temp_Humi_Sensor.svg?branch=master)](https://travis-ci.com/Seeed-Studio/Grove_SHT31_Temp_Humi_Sensor)
 
 <img src=https://statics3.seeedstudio.com/seeed/img/2016-06/cmJT8HtXruW9KsyjBBeqDNT9.jpg width=300><img src=https://statics3.seeedstudio.com/seeed/img/2016-06/lpom8S4MBr1TN4CR49l21ze7.jpg width=300>
 
