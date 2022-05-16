@@ -34,9 +34,6 @@ float SHT31::getHumidity(void) {
     return humidity;
 }
 
-uint16_t SHT31::readStatus(void) {
-}
-
 void SHT31::reset(void) {
     writeCommand(SHT31_SOFTRESET);
     delay(10);

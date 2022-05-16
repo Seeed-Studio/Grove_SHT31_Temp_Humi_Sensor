@@ -24,7 +24,6 @@ class SHT31 {
     float getTemperature(bool S = false);
     float convertCtoF(float);
     float getHumidity(void);
-    uint16_t readStatus(void);
     void reset(void);
     void heater(boolean);
     uint8_t crc8(const uint8_t* data, int len);
